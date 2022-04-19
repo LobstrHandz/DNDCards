@@ -25,23 +25,23 @@ body {
     width: 100%;
 }
 .cards {
-	width: 200mm;
+	width: 210mm;
 }
 .card {
     display: inline-block;
     vertical-align: top;
 	font-weight: bold;
 	font-family: Forum; 
-	height: 88mm;
-	width: 63mm;
+	height: 146mm;
+	width: 103mm;
 	/*background-image: url('../pics/preview-Arcane-front3.jpg');*/
 	background-color:  #C03E2E;
-	background-size: 63mm ;
-	padding: 2.2mm 2.2mm;
+	background-size: 103mm ;
+	padding: 3.3mm 3.3mm;
 	box-sizing: border-box;
 	/*margin-bottom: 1px;*/
-    border-bottom: 2px solid #fff;
-	margin-right: 1px;
+    border-bottom: 3px solid #fff;
+	margin: 1mm;
 
 	background-color: #999;
 	position: relative;
@@ -52,13 +52,13 @@ body {
 	/*float: right;*/
 }
 .title {
-	font-size: 4mm;
-	line-height: 4mm;
-	padding: 0.5mm; 
+	font-size: 6mm;
+	line-height: 6mm;
+	padding: 0.75mm; 
 	font-family: Marta; 
-	min-height: 5mm;
+	min-height: 7.5mm;
 	border-bottom: 1px solid  #999;
-	border-radius: 2mm 2mm 0 0;
+	border-radius: 3mm 3mm 0 0;
 	text-align: center;
 	box-sizing:border-box ;
 	background-color: #FFF;
@@ -66,11 +66,11 @@ body {
 }
 .level {
 	/*font-size: 4mm;*/
-	line-height: 0.85mm;
-	font-size: 2.0mm;
-	padding: 0.5mm; 
+	line-height: 1.275mm;
+	font-size: 3.0mm;
+	padding: 0.75mm; 
 	font-family: Forum; 
-	height: 2.1mm;
+	height: 3.15mm;
 	text-align: center;
 	box-sizing:border-box ;
 	color: #FFF;
@@ -81,12 +81,12 @@ body {
 	border: none;
 	text-align: center;
 	/*display: table;*/
-	height: 15.5mm;
+	height: 23.25mm;
 	width: 100%;
 }
 .prop {
 	width: 50%;
-	height: 7.9mm;
+	height: 11.85mm;
 	float: left;
 	/*border: 1px solid #C03E2E;*/
 	/*border: none; */
@@ -102,7 +102,7 @@ body {
 .prop + .prop + .prop {
 	border-left: none;
 	border-right: 1px solid #999;
-	border-top: 2px solid #999;
+	border-top: 3px solid #999;
 }
 .prop + .prop + .prop + .prop {
 	border-right: none;
@@ -110,57 +110,57 @@ body {
 }
 .propName {
 	font-family: Marta;
-	line-height: 4mm;
-	font-size: 2.6mm;
-	height: 4mm;
+	line-height: 6mm;
+	font-size: 3.9mm;
+	height: 6mm;
 	background-color: #fff;
 
 	color: #999;
 }
 .propValue {
-	line-height: 3.5mm;
-	font-size: 2.8mm;
-	height: 4mm;
+	line-height: 5.25mm;
+	font-size: 4.2mm;
+	height: 6mm;
 	background-color: #fff;
 }
 .text {
-	height: 56mm;
-	border-radius: 0 0 2mm 2mm ;
+	height: 84mm;
+	border-radius: 0 0 6mm 6mm ;
 	box-sizing:border-box;
 	position: relative;
 	background-color: #fff;
 	font-weight: normal;
 }
 .text.bigName {
-	height: 52mm;
+	height: 78mm;
 }
 .text p {
-	font-size: 2.3mm;
-	line-height: 2.3mm;
-	padding: 0 1.9mm; 
+	font-size: 3.45mm;
+	line-height: 3.45mm;
+	padding: 0 2.85mm; 
 	margin: 0mm; 
-	margin-top: 1.3mm; 	
-	margin-bottom: 1.3mm; 
+	margin-top: 1.95mm; 	
+	margin-bottom: 1.95mm; 
 }
 
 .text.small p{
-    font-size: 2mm;
-    line-height: 1.8mm;
-    margin-top: 1mm;
-    margin-bottom: 1mm;
+    font-size: 3mm;
+    line-height: 2.7mm;
+    margin-top: 1.5mm;
+    margin-bottom: 1.5mm;
 }
 .text.preSmall p{
 	color: green;
-    font-size: 2mm;
-    line-height: 1.8mm;
-    margin-top: 1mm;
-    margin-bottom: 1mm;
+    font-size: 6mm;
+    line-height: 2.7mm;
+    margin-top: 1.5mm;
+    margin-bottom: 1.5mm;
 }
 .text p:first-child {
-	margin-top: 2.7mm; 	
+	margin-top: 4.05mm; 	
 }
 .text p:last-child {
-	margin-bottom: 2.0mm; 	
+	margin-bottom: 6.0mm; 	
 }
 
 .higherLevels {
@@ -171,27 +171,27 @@ body {
 
 }
  p.first {
-	margin-top: 2.0mm; 	
+	margin-top: 6.0mm; 	
 }
 .higherLevels p:last-child {
-	margin-bottom: 2.0mm; 	
+	margin-bottom: 6.0mm; 	
 }
 .footer {
 	font-family: Marta;
-	line-height: 7mm;
-	font-size: 3.7mm;
-	height: 7mm;
+	line-height: 10.5mm;
+	font-size: 5.55mm;
+	height: 10.5mm;
 	color: #FFF;
 
 }
 
 .card .number {
     position: absolute;
-    bottom: 13px;
-    left: 25px;
+    bottom: 19px;
+    left: 37px;
     font-weight: bold;
-    font-size: 60px;
-    width: 35px;
+    font-size: 90px;
+    width: 52px;
     text-align: center;
 }
 .card .number2 {
@@ -203,12 +203,12 @@ body {
 
     position: absolute;
     font-weight: bold;
-    font-size: 60px;
-    width: 35px;
+    font-size: 90px;
+    width: 52px;
     text-align: center;
 
-    top: 13px;
-    right: 25px;
+    top: 19px;
+    right: 37px;
 }
 
 
@@ -285,3 +285,10 @@ body {
 .cardBard .higherLevels { border-top: 1px solid  #812264; }
 .cardBard .prop {	border-color: #812264 !important; }
 .cardBard .propName { color: #812264; }
+
+@media print {
+	.card {
+		background-color: #999 !important;
+		-webkit-print-color-adjust: exact !important;
+	}
+}
