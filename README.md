@@ -1,3 +1,5 @@
+Based on this project https://github.com/munimaev/DND5E-cards
+
 Карточки заклинаний для Dungeons and Dragons 5e
 ========
 
